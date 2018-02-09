@@ -28,6 +28,7 @@
 - GenericInterface.java ------ 泛型接口
 - GenericFun.java ------ 泛型方法
 ### javaClassLib ------ 常用Java类库
+- SystemDemo.java ------ System类
 - ObjectClone.java ------ 对象克隆
 - DateDemo.java ------ 日期处理类(Date类)
 ### multiThread ------ 多线程
@@ -67,6 +68,7 @@ src/
 │   ├── GenericInterface.java
 │   └── GenericFun.java
 ├── javaClassLib/
+│   ├── SystemDemo.java
 │   ├── ObjectClone.java
 │   └── DateDemo.java
 └── multiThread/
@@ -75,4 +77,11 @@ src/
     ├── CallableDemo.java
     ├── ProviderAndConsumer.java
     └── ThreadPool.java
+```
+## 面试题:
+- 请解释final、finally、finalize的区别
+```
+- final: 是一个关键字，用于定义不能被继承的父类、不能被覆写的方法、常量；
+- finally: 是异常处理的统一出口；
+- finalize: 是Object类中的一个方法，用于在对象回收前进行调用。
 ```
