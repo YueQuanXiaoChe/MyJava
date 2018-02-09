@@ -19,8 +19,20 @@
 src/
 ├── algorithm/ 
 │   ├── BinarySearch.java
-│   ├── 
+│   ├── BubbleSort.java
+│   ├── ArrayReverse.java
+│   ├── TwoDimensionalReverse.java
+│   ├── PrintTriangle.java
+│   ├── IsComposedOfNnumbers.java
+│   ├── ToFirstCharUpper.java
+│   └── LinkTable.java
 ├── designPattern/
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
 │   ├── 
 │   └── 
 ├── functionInterface/
@@ -35,5 +47,4 @@ src/
 └── multiThread/
     ├── 
     └── 
-
 ```
