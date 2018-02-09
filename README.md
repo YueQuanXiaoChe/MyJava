@@ -9,7 +9,7 @@
 - IsComposedOfNnumbers.java ------ 判断一个字符串是否由数字所组成
 - ToFirstCharUpper.java ------ 实现字符串首字母大写
 - LinkTable.java ------ 链表(最简单的单向链表)/动态数组
-### designPattern
+### designPattern ------ 设计模式
 - TemplatePattern.java ------ 抽象类的实际应用 ------ 模板设计模式
 - FactoryPattern.java ------ 接口的设计模式 ------ 工厂设计模式
 - ProxyPattern.java ------ 接口的设计模式 ------ 代理设计模式 (感觉和装饰器模式是一回事)
@@ -19,7 +19,7 @@
 - Multiple.java ------ 多例设计模式
 - InterfaceExtension.java ------ 接口定义加强 ------ 挽救设计
 ### functionInterface
-### generic
+### generic ------ 泛型
 - GenericBasic.java ------ 泛型的基本使用
 - GenericWildcard.java ------ 泛型: 通配符
 - GenericInterface.java ------ 泛型接口
