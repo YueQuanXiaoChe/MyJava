@@ -20,6 +20,10 @@
 - InterfaceExtension.java ------ 接口定义加强 ------ 挽救设计
 ### functionInterface
 ### generic
+- GenericBasic.java ------ 泛型的基本使用
+- GenericWildcard.java ------ 泛型: 通配符
+- GenericInterface.java ------ 泛型接口
+- GenericFun.java ------ 泛型方法
 ### javaClassLib
 ### multiThread
 
@@ -47,8 +51,10 @@ src/
 │   ├── 
 │   └── 
 ├── generic/
-│   ├── 
-│   └── 
+│   ├── GenericBasic.java
+│   ├── GenericWildcard.java
+│   ├── GenericInterface.java
+│   └── GenericFun.java
 ├── javaClassLib/
 │   ├── 
 │   └── 
