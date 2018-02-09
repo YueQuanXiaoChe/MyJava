@@ -81,13 +81,13 @@ src/
     └── ThreadPool.java
 ```
 ## 面试题:
-- 请解释final、finally、finalize的区别?
+- 请解释final、finally、finalize的区别？
 ```
 - final: 是一个关键字，用于定义不能被继承的父类、不能被覆写的方法、常量；
 - finally: 是异常处理的统一出口；
 - finalize: 是Object类中的一个方法，用于在对象回收前进行调用。
 ```
-- 什么是gc?如何处理?
+- 什么是gc？如何处理？
 ```
 - gc (Garbage Collector): 垃圾收集器，用于释放无用的内存空间；
 - gc 有两种处理形式，一种是自动不定期调用，另外一种是使用Runtime类中的gc()方法手工调用。
