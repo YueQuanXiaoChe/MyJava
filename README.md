@@ -18,7 +18,10 @@
 - LazySingleton.java ------ 懒汉式 ------ 单例设计模式
 - Multiple.java ------ 多例设计模式
 - InterfaceExtension.java ------ 接口定义加强 ------ 挽救设计
-### functionInterface
+### functionInterface ------ 函数式接口
+- LambdaDemo.java ------ Lambda表达式
+- MethodReference.java ------ 方法引用
+- BuildInFunctionalInterface.java ------ 内建函数式接口
 ### generic ------ 泛型
 - GenericBasic.java ------ 泛型的基本使用
 - GenericWildcard.java ------ 泛型: 通配符
@@ -55,8 +58,9 @@ src/
 │   ├── Multiple.java
 │   └── InterfaceExtension.java
 ├── functionInterface/
-│   ├── 
-│   └── 
+│   ├── LambdaDemo.java
+│   ├── MethodReference.java
+│   └── BuildInFunctionalInterface.java
 ├── generic/
 │   ├── GenericBasic.java
 │   ├── GenericWildcard.java
