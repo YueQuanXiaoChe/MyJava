@@ -94,3 +94,8 @@ src/
 - gc (Garbage Collector): 垃圾收集器，用于释放无用的内存空间；
 - gc 有两种处理形式，一种是自动不定期调用，另外一种是使用Runtime类中的gc()方法手工调用。
 ```
+- 请解释String、StringBuffer、StringBuilder的区别？
+```
+- String的内容不可修改，StringBuffer和StringBuilder的内容可以修改；
+- StringBuffer采用同步处理，属于线程安全操作；而StringBuilder采用异步处理，属于线程不安全操作。
+```
