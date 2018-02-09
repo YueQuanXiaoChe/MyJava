@@ -12,7 +12,7 @@ public class ToFirstCharUpper {
 	}
 
 	public static String initcap(String str) {
-		// "".equals(str) 和 str.osEmpty()
+		// "".equals(str) 和 str.isEmpty()
 		if (str == null || "".equals(str)) { // 没有数据
 			return str; // 进来什么数据就返回什么数据
 		}
