@@ -28,6 +28,7 @@
 - GenericInterface.java ------ 泛型接口
 - GenericFun.java ------ 泛型方法
 ### javaClassLib ------ 常用Java类库
+- SystemDemo.java ------ System类
 - ObjectClone.java ------ 对象克隆
 - DateDemo.java ------ 日期处理类(Date类)
 ### multiThread ------ 多线程
@@ -67,6 +68,7 @@ src/
 │   ├── GenericInterface.java
 │   └── GenericFun.java
 ├── javaClassLib/
+│   ├── SystemDemo.java
 │   ├── ObjectClone.java
 │   └── DateDemo.java
 └── multiThread/
