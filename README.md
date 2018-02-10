@@ -18,6 +18,8 @@
 - LazySingleton.java ------ 懒汉式 ------ 单例设计模式
 - Multiple.java ------ 多例设计模式
 - InterfaceExtension.java ------ 接口定义加强 ------ 挽救设计
+### enumClass ------ 枚举（多例设计模式）
+- EnumDemo.java ------ 枚举（多例设计模式与枚举、Enum类、枚举中定义其他结构、枚举应用）
 ### functionInterface ------ 函数式接口
 - LambdaDemo.java ------ Lambda表达式
 - MethodReference.java ------ 方法引用
@@ -60,6 +62,8 @@ src/
 │   ├── LazySingleton.java
 │   ├── Multiple.java
 │   └── InterfaceExtension.java
+├── enumClass/
+│   └── EnumDemo.java
 ├── functionInterface/
 │   ├── LambdaDemo.java
 │   ├── MethodReference.java
