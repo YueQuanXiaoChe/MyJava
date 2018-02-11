@@ -1,18 +1,18 @@
 # Java
 ## src
 ### algorithm ------ 数据结构与算法（引用 + 递归）
-- BinarySearch.java ------ 数组案例: 二分查找 (采用方法递归完成)
+- BinarySearch.java ------ 数组案例: 二分查找（采用方法递归完成）
 - BubbleSort.java ------ 数组案例: 冒泡排序
 - ArrayReverse.java ------ 数组案例: 数组转置
-- TwoDimensionalReverse.java ------ 数组案例: 二维数组转置 (前提:行列相等)
+- TwoDimensionalReverse.java ------ 数组案例: 二维数组转置 （前提:行列相等）
 - PrintTriangle.java ------ 打印三角
 - IsComposedOfNnumbers.java ------ 判断一个字符串是否由数字所组成
 - ToFirstCharUpper.java ------ 实现字符串首字母大写
-- LinkTable.java ------ 链表(最简单的单向链表)/动态数组
+- LinkTable.java ------ 链表（最简单的单向链表）/动态数组
 ### designPattern ------ 设计模式
 - TemplatePattern.java ------ 抽象类的实际应用 ------ 模板设计模式
 - FactoryPattern.java ------ 接口的设计模式 ------ 工厂设计模式
-- ProxyPattern.java ------ 接口的设计模式 ------ 代理设计模式 (感觉和装饰器模式是一回事)
+- ProxyPattern.java ------ 接口的设计模式 ------ 代理设计模式 （感觉和装饰器模式是一回事）
 - AnonymousInnerClass.java ------ 匿名内部类
 - HungerSingleton.java ------ 恶汉式 ------ 单例设计模式
 - LazySingleton.java ------ 懒汉式 ------ 单例设计模式
@@ -34,11 +34,11 @@
 - RuntimeDemo.java ------ Runtime类
 - SystemDemo.java ------ System类
 - ObjectClone.java ------ 对象克隆
-- DateDemo.java ------ 日期处理类(Date类)
+- DateDemo.java ------ 日期处理类（Date类）
 - SimpleDateFormatDemo.java ------ 日期格式化
-- MathDemo.java ------ 数字操作类(用Math实现四舍五入)
+- MathDemo.java ------ 数字操作类（用Math实现四舍五入）
 - RandomDemo.java ------ 随机数
-- BigNumber.java ------ 大数字操作类(用BigDecimal实现四舍五入)
+- BigNumber.java ------ 大数字操作类（用BigDecimal实现四舍五入）
 ### multiThread ------ 多线程
 - ThreadDemo.java ------ 继承Thread类实现多线程
 - RunnableDemo.java ------ 使用Runnable接口实现多线程
