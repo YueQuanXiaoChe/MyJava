@@ -36,6 +36,9 @@
 - ObjectClone.java ------ 对象克隆
 - DateDemo.java ------ 日期处理类(Date类)
 - SimpleDateFormatDemo.java ------ 日期格式化
+- MathDemo.java ------ 数字操作类(用Math实现四舍五入)
+- RandomDemo.java ------ 随机数
+- BigNumber.java ------ 大数字操作类(用BigDecimal实现四舍五入)
 ### multiThread ------ 多线程
 - ThreadDemo.java ------ 继承Thread类实现多线程
 - RunnableDemo.java ------ 使用Runnable接口实现多线程
@@ -80,7 +83,10 @@ src/
 │   ├── SystemDemo.java
 │   ├── ObjectClone.java
 │   ├── DateDemo.java
-│   └── SimpleDateFormatDemo.java
+│   ├── SimpleDateFormatDemo.java
+│   ├── MathDemo.java
+│   ├── RandomDemo.java
+│   └── BigNumber.java
 └── multiThread/
     ├── ThreadDemo.java
     ├── RunnableDemo.java
