@@ -35,6 +35,7 @@
 - SystemDemo.java ------ System类
 - ObjectClone.java ------ 对象克隆
 - DateDemo.java ------ 日期处理类(Date类)
+- SimpleDateFormatDemo.java ------ 日期格式化
 ### multiThread ------ 多线程
 - ThreadDemo.java ------ 继承Thread类实现多线程
 - RunnableDemo.java ------ 使用Runnable接口实现多线程
@@ -78,7 +79,8 @@ src/
 │   ├── RuntimeDemo.java
 │   ├── SystemDemo.java
 │   ├── ObjectClone.java
-│   └── DateDemo.java
+│   ├── DateDemo.java
+│   └── SimpleDateFormatDemo.java
 └── multiThread/
     ├── ThreadDemo.java
     ├── RunnableDemo.java
