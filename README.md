@@ -9,6 +9,7 @@
 - IsComposedOfNnumbers.java ------ 判断一个字符串是否由数字所组成
 - ToFirstCharUpper.java ------ 实现字符串首字母大写
 - LinkTable.java ------ 链表（最简单的单向链表）/动态数组
+- BTDemo.java ------ 二叉树
 ### designPattern ------ 设计模式
 - TemplatePattern.java ------ 抽象类的实际应用 ------ 模板设计模式
 - FactoryPattern.java ------ 接口的设计模式 ------ 工厂设计模式
@@ -40,6 +41,8 @@
 - RandomDemo.java ------ 随机数
 - BigNumber.java ------ 大数字操作类（用BigDecimal实现四舍五入）
 - ArraysDemo.java ------ Arrays类
+- ComparableDemo.java ------ 比较器
+- ComparatorDemo.java ------ 挽救的比较器
 ### multiThread ------ 多线程
 - ThreadDemo.java ------ 继承Thread类实现多线程
 - RunnableDemo.java ------ 使用Runnable接口实现多线程
@@ -57,7 +60,8 @@ src/
 │   ├── PrintTriangle.java
 │   ├── IsComposedOfNnumbers.java
 │   ├── ToFirstCharUpper.java
-│   └── LinkTable.java
+│   ├── LinkTable.java
+│   └── BTDemo.java
 ├── designPattern/
 │   ├── TemplatePattern.java
 │   ├── FactoryPattern.java
@@ -88,7 +92,9 @@ src/
 │   ├── MathDemo.java
 │   ├── RandomDemo.java
 │   ├── BigNumber.java
-│   └── ArraysDemo.java
+│   ├── ArraysDemo.java
+│   ├── ComparableDemo.java
+│   └── ComparatorDemo.java
 └── multiThread/
     ├── ThreadDemo.java
     ├── RunnableDemo.java
