@@ -132,3 +132,8 @@ start()              阻塞解除                           
 - sleep() 是 Thread 类中定义的方法，到了一定的时间后该休眠的线程可以自动唤醒；
 - wait() 是 Object 类中定义的方法，如果想要唤醒，必须使用 notify() 或 notifyAll() 方法才可以唤醒。
 ```
+- 请解释两种比较器的区别？
+```
+- java.lang.Comparable 是在一个类定义的时候默认实现好的接口，里面存在有 compareTo() 方法；
+- java.lang.Comparator 是挽救的比较接口，需要单独定义一个比较规则类，定义有 compare() 和 equals() 方法。
+```
