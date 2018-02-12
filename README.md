@@ -47,6 +47,7 @@
 - LocaleDemo.java ------ 国际化: Locale类
 - ResouseBundleDemo.java ------ 国际化程序的实现
 - TimerDemo.java ------ 定时器
+- UUIDDemo.java ------ UUID类: 根据当前的地址还有时间戳自动生成一个几乎不会重复的字符串
 ### multiThread ------ 多线程
 - ThreadDemo.java ------ 继承Thread类实现多线程
 - RunnableDemo.java ------ 使用Runnable接口实现多线程
@@ -102,7 +103,8 @@ src/
 │   ├── ComparatorDemo.java
 │   ├── LocaleDemo.java
 │   ├── ResouseBundleDemo.java
-│   └── TimerDemo.java
+│   ├── TimerDemo.java
+│   └── UUIDDemo.java
 └── multiThread/
     ├── ThreadDemo.java
     ├── RunnableDemo.java
