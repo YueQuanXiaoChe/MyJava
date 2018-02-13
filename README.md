@@ -46,6 +46,7 @@
 - ComparatorDemo.java ------ 挽救的比较器
 - LocaleDemo.java ------ 国际化: Locale类
 - ResouseBundleDemo.java ------ 国际化程序的实现
+- TimerDemo.java ------ 定时器
 ### multiThread ------ 多线程
 - ThreadDemo.java ------ 继承Thread类实现多线程
 - RunnableDemo.java ------ 使用Runnable接口实现多线程
@@ -100,7 +101,8 @@ src/
 │   ├── ComparableDemo.java
 │   ├── ComparatorDemo.java
 │   ├── LocaleDemo.java
-│   └── ResouseBundleDemo.java
+│   ├── ResouseBundleDemo.java
+│   └── TimerDemo.java
 └── multiThread/
     ├── ThreadDemo.java
     ├── RunnableDemo.java
