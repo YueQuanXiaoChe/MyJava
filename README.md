@@ -13,7 +13,7 @@
 ### designPattern ------ 设计模式
 - TemplatePattern.java ------ 抽象类的实际应用 ------ 模板设计模式
 - FactoryPattern.java ------ 接口的设计模式 ------ 工厂设计模式
-- ProxyPattern.java ------ 接口的设计模式 ------ 代理设计模式 （感觉和装饰器模式是一回事）
+- ProxyPattern.java ------ 接口的设计模式 ------ 代理设计模式 
 - AnonymousInnerClass.java ------ 匿名内部类
 - HungerSingleton.java ------ 恶汉式 ------ 单例设计模式
 - LazySingleton.java ------ 懒汉式 ------ 单例设计模式
