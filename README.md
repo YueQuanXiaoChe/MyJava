@@ -55,7 +55,10 @@
 - CallableDemo.java ------ 使用Callable接口实现多线程
 - ProviderAndConsumer.java ------ 线程同步与数据重复操作
 - ThreadPool.java ------ 创建各种线程池
-
+### properties ------ 属性文件
+- Message.properties ------ 自定义的默认属性文件
+- Message_zh_CN.properties ------ 中文版属性文件
+- Message_en_US.properties ------ 英文版属性文件
 ```
 src/
 ├── algorithm/ 
@@ -107,12 +110,16 @@ src/
 │   ├── TimerDemo.java
 │   ├── UUIDDemo.java
 │   └── Base64Demo.java
-└── multiThread/
-    ├── ThreadDemo.java
-    ├── RunnableDemo.java
-    ├── CallableDemo.java
-    ├── ProviderAndConsumer.java
-    └── ThreadPool.java
+├── multiThread/
+│   ├── ThreadDemo.java
+│   ├── RunnableDemo.java
+│   ├── CallableDemo.java
+│   ├── ProviderAndConsumer.java
+│   └── ThreadPool.java
+└── properties
+    ├── Message.properties
+    ├── Message_zh_CN.properties
+    └── Message_en_US.properties
 ```
 ## 面试题:
 - 请解释 final、finally、finalize 的区别？
