@@ -49,6 +49,7 @@
 - TimerDemo.java ------ 定时器
 - UUIDDemo.java ------ UUID类: 根据当前的地址还有时间戳自动生成一个几乎不会重复的字符串
 - Base64Demo.java ------ Base64加密处理
+- ThreadLocalDemo.java ------ ThreadLocal类（减少一些重要的引用传递）
 ### multiThread ------ 多线程
 - ThreadDemo.java ------ 继承Thread类实现多线程
 - RunnableDemo.java ------ 使用Runnable接口实现多线程
@@ -109,7 +110,8 @@ src/
 │   ├── ResouseBundleDemo.java
 │   ├── TimerDemo.java
 │   ├── UUIDDemo.java
-│   └── Base64Demo.java
+│   ├── Base64Demo.java
+│   └── ThreadLocalDemo.java
 ├── multiThread/
 │   ├── ThreadDemo.java
 │   ├── RunnableDemo.java
