@@ -19,6 +19,7 @@
 - LazySingleton.java ------ 懒汉式 ------ 单例设计模式
 - Multiple.java ------ 多例设计模式
 - InterfaceExtension.java ------ 接口定义加强 ------ 挽救设计
+- ObserverPattern.java ------ 观察者设计模式
 ### enumClass ------ 枚举（多例设计模式）
 - EnumDemo.java ------ 枚举（多例设计模式与枚举、Enum类、枚举中定义其他结构、枚举应用）
 ### functionInterface ------ 函数式接口
@@ -72,7 +73,8 @@ src/
 │   ├── HungerSingleton.java
 │   ├── LazySingleton.java
 │   ├── Multiple.java
-│   └── InterfaceExtension.java
+│   ├── InterfaceExtension.java
+│   └── ObserverPattern.java
 ├── enumClass/
 │   └── EnumDemo.java
 ├── functionInterface/
