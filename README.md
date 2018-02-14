@@ -124,7 +124,7 @@ src/
 ├── regex/
 │   ├── RegexDemo.java
 │   └── RegexPkgDemo.java
-└── properties
+└── properties/
     ├── Message.properties
     ├── Message_zh_CN.properties
     └── Message_en_US.properties
