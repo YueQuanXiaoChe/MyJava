@@ -56,6 +56,9 @@
 - CallableDemo.java ------ 使用Callable接口实现多线程
 - ProviderAndConsumer.java ------ 线程同步与数据重复操作
 - ThreadPool.java ------ 创建各种线程池
+### regex ------ 正则表达式
+- RegexDemo.java ------ String类中正则表达式的使用
+- RegexPkgDemo.java ------ Pattern类、Matcher类的使用
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
@@ -118,6 +121,9 @@ src/
 │   ├── CallableDemo.java
 │   ├── ProviderAndConsumer.java
 │   └── ThreadPool.java
+├── regex/
+│   ├── RegexDemo.java
+│   └── RegexPkgDemo.java
 └── properties
     ├── Message.properties
     ├── Message_zh_CN.properties
