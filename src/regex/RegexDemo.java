@@ -1,5 +1,5 @@
 /**
- * 正则表达式
+ * String类中正则表达式的使用
  */
 package regex;
 
