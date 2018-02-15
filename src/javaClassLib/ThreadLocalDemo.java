@@ -1,5 +1,5 @@
 /**
- * ThreadLocal类
+ * ThreadLocal类（减少一些重要的引用传递）
  */
 package javaClassLib;
 
