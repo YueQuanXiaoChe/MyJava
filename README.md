@@ -59,6 +59,10 @@
 ### regex ------ 正则表达式
 - RegexDemo.java ------ String类中正则表达式的使用
 - RegexPkgDemo.java ------ Pattern类、Matcher类的使用
+### io ------ IO操作
+- FileDemo.java ------ File类的基本操作
+- FileDirDemo.java ------ 创建目录
+- GetFileInfo.java ------ 取得文件信息
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
@@ -124,6 +128,10 @@ src/
 ├── regex/
 │   ├── RegexDemo.java
 │   └── RegexPkgDemo.java
+├── io/
+│   ├── FileDemo.java
+│   ├── FileDirDemo.java
+│   └── GetFileInfo.java
 └── properties/
     ├── Message.properties
     ├── Message_zh_CN.properties
