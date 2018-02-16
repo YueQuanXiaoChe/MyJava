@@ -151,12 +151,12 @@ src/
 - 基本数据类型:
 
               ├── 数值型: 表示整数或小数
-                  ├── 整形: byte、 short、 int、 long
-                  └── 浮点型: float、 double
-              ├── 字符型: char
-              └── 布尔型: boolean
-              
-- 引用数据类型: 数组、 类、 接口
+                  ├── 整形: byte、 short、 int、 long   ->  默认值: 0
+                  └── 浮点型: float、 double            ->  默认值: 0.0
+              ├── 字符型: char                          ->  默认值: '\u0000'
+              └── 布尔型: boolean                       ->  默认值: false
+              
+- 引用数据类型: 数组、 类、 接口                          ->  默认值: null
 ```
 - 请解释 final、finally、finalize 的区别？
 ```
