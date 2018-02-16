@@ -63,6 +63,9 @@
 - FileDemo.java ------ File类的基本操作
 - FileDirDemo.java ------ 创建目录
 - GetFileInfo.java ------ 取得文件信息
+- FileIntegratedOperation.java ------ File类综合操作: 列出子目录内容
+- FileOutputStreamDemo.java ------ 实现文件内容输出
+- TestAutoDemo.java ------ AutoCloseable自动关闭支持(不建议使用，容易造成代码混乱)
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
@@ -131,7 +134,10 @@ src/
 ├── io/
 │   ├── FileDemo.java
 │   ├── FileDirDemo.java
-│   └── GetFileInfo.java
+│   ├── GetFileInfo.java
+│   ├── FileIntegratedOperation.java
+│   ├── FileOutputStreamDemo.java
+│   └── TestAutoDemo.java
 └── properties/
     ├── Message.properties
     ├── Message_zh_CN.properties
