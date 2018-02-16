@@ -149,11 +149,17 @@ src/
 - 请说明Java中的数据类型有哪些？
 ```
 - 基本数据类型:
+
               ├── 数值型: 表示整数或小数
+              
                   ├── 整形: byte、 short、 int、 long
+                  
                   ├── 浮点型: float、 double
+                  
               ├── 字符型: char
+              
               ├── 布尔型: boolean
+              
 - 引用数据类型: 数组、 类、 接口
 ```
 - 请解释 final、finally、finalize 的区别？
