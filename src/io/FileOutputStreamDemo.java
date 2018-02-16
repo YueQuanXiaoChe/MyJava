@@ -6,6 +6,7 @@ package io;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 
 public class FileOutputStreamDemo {
 
@@ -15,7 +16,7 @@ public class FileOutputStreamDemo {
 			file.getParentFile().mkdirs();
 		}
 		// 2.OutputStream是一个抽象类，所以需要通过子类进行实例化，意味着只能够进行文件处理
-		FileOutputStream output = new FileOutputStream(file, true);
+		OutputStream output = new FileOutputStream(file, true);
 		// 3.进行文件的输出处理操作
 		String msg = "Hello world!\r\n";  // 要求输出的内容
 		output.write(msg.getBytes(), 1, 3);  // 将内容变成字节数组
