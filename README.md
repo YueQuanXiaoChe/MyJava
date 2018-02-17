@@ -5,6 +5,7 @@
 - BubbleSort.java ------ 数组案例: 冒泡排序
 - ArrayReverse.java ------ 数组案例: 数组转置
 - TwoDimensionalReverse.java ------ 数组案例: 二维数组转置 （前提:行列相等）
+- PrintMulFormula.java ------ 打印乘法口诀表
 - PrintTriangle.java ------ 打印三角
 - IsComposedOfNnumbers.java ------ 判断一个字符串是否由数字所组成
 - ToFirstCharUpper.java ------ 实现字符串首字母大写
@@ -78,6 +79,7 @@ src/
 │   ├── BubbleSort.java
 │   ├── ArrayReverse.java
 │   ├── TwoDimensionalReverse.java
+│   ├── PrintMulFormula.java
 │   ├── PrintTriangle.java
 │   ├── IsComposedOfNnumbers.java
 │   ├── ToFirstCharUpper.java
