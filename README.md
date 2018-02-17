@@ -68,6 +68,8 @@
 - FileOutputStreamDemo.java ------ 实现文件内容输出
 - TestAutoDemo.java ------ AutoCloseable自动关闭支持(不建议使用，容易造成代码混乱)
 - FileInputStreamDemo.java ------ 实现文件信息的读取
+- FileWriterDemo.java ------ 字符输出流: Writer
+- FileReaderDemo.java ------ 字符输入流: Reader
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
@@ -141,7 +143,9 @@ src/
 │   ├── FileIntegratedOperation.java
 │   ├── FileOutputStreamDemo.java
 │   ├── TestAutoDemo.java
-│   └── FileInputStreamDemo.java
+│   ├── FileInputStreamDemo.java
+│   ├── FileWriterDemo.java
+│   └── FileReaderDemo.java
 └── properties/
     ├── Message.properties
     ├── Message_zh_CN.properties
