@@ -72,6 +72,8 @@
 - FileReaderDemo.java ------ 字符输入流: Reader
 - TransformStream.java ------ 转换流: OutputStreamWriter / InputStreamReader
 - FileCopy.java ------ 文件拷贝
+- ByteArrayStream.java ------ 内存操作流
+- FileMerge.java ------ 文件合并处理
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
@@ -149,7 +151,9 @@ src/
 │   ├── FileWriterDemo.java
 │   ├── FileReaderDemo.java
 │   ├── TransformStream.java
-│   └── FileCopy.java
+│   ├── FileCopy.java
+│   ├── ByteArrayStream.java
+│   └── FileMerge.java
 └── properties/
     ├── Message.properties
     ├── Message_zh_CN.properties
