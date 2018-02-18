@@ -74,6 +74,9 @@
 - FileCopy.java ------ 文件拷贝
 - ByteArrayStream.java ------ 内存操作流
 - FileMerge.java ------ 文件合并处理
+- MyPrintStream.java ------ 打印流设计思想
+- PrintWriterDemo.java ------ 使用系统打印流: 装饰器设计模式
+- FormatPrintWriterDemo.java ------ 打印流: 格式文本化信息
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
@@ -153,7 +156,10 @@ src/
 │   ├── TransformStream.java
 │   ├── FileCopy.java
 │   ├── ByteArrayStream.java
-│   └── FileMerge.java
+│   ├── FileMerge.java
+│   ├── MyPrintStream.java
+│   ├── PrintWriterDemo.java
+│   └── FormatPrintWriterDemo.java
 └── properties/
     ├── Message.properties
     ├── Message_zh_CN.properties
