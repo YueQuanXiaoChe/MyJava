@@ -77,6 +77,7 @@
 - MyPrintStream.java ------ 打印流设计思想
 - PrintWriterDemo.java ------ 使用系统打印流: 装饰器设计模式
 - FormatPrintWriterDemo.java ------ 打印流: 格式文本化信息
+- SystemIO.java ------ System类对IO的支持
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
@@ -159,7 +160,8 @@ src/
 │   ├── FileMerge.java
 │   ├── MyPrintStream.java
 │   ├── PrintWriterDemo.java
-│   └── FormatPrintWriterDemo.java
+│   ├── FormatPrintWriterDemo.java
+│   └── SystemIO.java
 └── properties/
     ├── Message.properties
     ├── Message_zh_CN.properties
