@@ -70,6 +70,8 @@
 - FileInputStreamDemo.java ------ 实现文件信息的读取
 - FileWriterDemo.java ------ 字符输出流: Writer
 - FileReaderDemo.java ------ 字符输入流: Reader
+- TransformStream.java ------ 转换流: OutputStreamWriter / InputStreamReader
+- FileCopy.java ------ 文件拷贝
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
@@ -145,7 +147,9 @@ src/
 │   ├── TestAutoDemo.java
 │   ├── FileInputStreamDemo.java
 │   ├── FileWriterDemo.java
-│   └── FileReaderDemo.java
+│   ├── FileReaderDemo.java
+│   ├── TransformStream.java
+│   └── FileCopy.java
 └── properties/
     ├── Message.properties
     ├── Message_zh_CN.properties
