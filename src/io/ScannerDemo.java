@@ -1,5 +1,5 @@
 /**
- * 
+ * Scanner类
  */
 package io;
 
