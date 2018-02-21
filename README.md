@@ -98,7 +98,7 @@
 - DeptAction.java
 - EmpAction.java
 ### reflect/util ------ 工具类
-- BeanOperation.java ------ 单级、多级VO设置实现: 本类主要负责实现自动的VO匹配处理操作，本身不需要通过实例化对象完成，所以构造方法私有化
+- BeanOperation.java ------ 单级、多级VO设置实现: 本类主要负责实现自动的VO匹配处理操作
 - ObjectUtils.java ------ 单级、多级VO设置实现: 本类的主要功能是根据属性名称调用相应类中的getter、setter方法
 - StringUtils.java ------ 针对字符串进行处理操作
 ### properties ------ 属性文件
