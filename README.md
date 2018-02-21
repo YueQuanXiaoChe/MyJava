@@ -94,7 +94,6 @@
 - Dept.java ------- 部门VO类
 - Company.java ------ 公司VO类
 ### reflect/action ------ 行为类
-- DeptAction.java
 - EmpAction.java
 ### reflect/util ------ 工具类
 - BeanOperation.java ------ 单级、多级VO设置实现: 本类主要负责实现自动的VO匹配处理操作
@@ -201,7 +200,6 @@ src/
 │   │   ├── Dept.java
 │   │   └── Company.java
 │   └── reflect/action/
-│   │   ├── DeptAction.java
 │   │   └── EmpAction.java
 │   └── reflect/util/
 │       ├── BeanOperation.java
