@@ -1,5 +1,5 @@
 /**
- * 单级VO设置实现: 本类的主要功能是根据属性名称调用相应类中的getter、setter方法
+ * 单级、多级VO设置实现: 本类的主要功能是根据属性名称调用相应类中的getter、setter方法
  */
 package reflect.util;
 
