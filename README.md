@@ -89,6 +89,7 @@
 - ReflectMethod.java ------ 通过反射调用普通方法
 - ReflectField.java ------ 通过反射调用类成员
 - TestEmpDemo.java ------ 多级VO设置实现
+- ClassLoaderDemo.java ------ 自定义类加载器
 ### reflect/vo ------ 简单Java类
 - Emp.java ------ 雇员VO类
 - Dept.java ------- 部门VO类
@@ -195,11 +196,12 @@ src/
 │   ├── ReflectMethod.java
 │   ├── ReflectField.java
 │   ├── TestEmpDemo.java
+│   ├── ClassLoaderDemo.java
 │   ├── reflect/vo/
 │   │   ├── Emp.java
 │   │   ├── Dept.java
 │   │   └── Company.java
-│   └── reflect/action/
+│   ├── reflect/action/
 │   │   └── EmpAction.java
 │   └── reflect/util/
 │       ├── BeanOperation.java
