@@ -1,12 +1,19 @@
 /**
- * 简单Java类
+ * 部门VO类
  */
 package reflect.vo;
 
 public class Dept {
 	private String dname;
 	private String loc;
+	private Company company = new Company();
 	
+	public Company getCompany() {
+		return company;
+	}
+	public void setCompany(Company company) {
+		this.company = company;
+	}
 	public String getDname() {
 		return dname;
 	}
@@ -21,6 +28,6 @@ public class Dept {
 	}
 	@Override
 	public String toString() {
-		return "Dept [dname=" + dname + ", loc=" + loc + "]";
+		return "Dept [dname=" + dname + ", loc=" + loc + "] " + this.company;
 	}
 }

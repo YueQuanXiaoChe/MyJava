@@ -1,12 +1,19 @@
 /**
- * 简单Java类
+ * 雇员VO类
  */
 package reflect.vo;
 
 public class Emp {
 	private String ename;
 	private String job;
+	private Dept dept = new Dept();
 	
+	public Dept getDept() {
+		return dept;
+	}
+	public void setDept(Dept dept) {
+		this.dept = dept;
+	}
 	public String getEname() {
 		return ename;
 	}
@@ -21,6 +28,6 @@ public class Emp {
 	}
 	@Override
 	public String toString() {
-		return "Emp [ename=" + ename + ", job=" + job + "]";
+		return "Emp [ename=" + ename + ", job=" + job + "] " + this.dept;
 	}
 }

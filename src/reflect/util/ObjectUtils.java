@@ -1,5 +1,5 @@
 /**
- * 单级自动VO设置实现: 本类的主要功能是根据属性名称调用相应类中的getter、setter方法
+ * 单级VO设置实现: 本类的主要功能是根据属性名称调用相应类中的getter、setter方法
  */
 package reflect.util;
 
@@ -35,9 +35,7 @@ public class ObjectUtils {
 	 * @param warpObject 要调用的方法所在类对象
 	 * @param attribute 属性名称
 	 * @return 调用对象的结果
-	 * @throws InvocationTargetException 
-	 * @throws IllegalArgumentException 
-	 * @throws IllegalAccessException 
+	 * @throws Exception 
 	 */
 	public static Object getObject(Object warpObject, String attribute) throws Exception {
 		String methodName = "get" + StringUtils.initcap(attribute); // 定义getter的方法名称

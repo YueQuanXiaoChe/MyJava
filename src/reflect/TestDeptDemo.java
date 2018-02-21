@@ -1,5 +1,5 @@
 /**
- * 单级自动VO设置实现
+ * 单级VO设置实现
  */
 package reflect;
 
