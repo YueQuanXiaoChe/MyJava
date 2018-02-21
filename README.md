@@ -90,9 +90,16 @@
 - ReflectField.java ------ 通过反射调用类成员
 - TestEmpDemo.java ------ 单级VO设置实现
 - TestDeptDemo.java ------ 单级VO设置实现
-#### reflect/vo ------ 简单Java类
+### reflect/vo ------ 简单Java类
 - Dept.java
 - Emp.java
+### reflect/action ------ 行为类
+- DeptAction.java
+- EmpAction.java
+### reflect/util ------ 工具类
+- BeanOperation.java ------ 单级VO设置实现: 本类主要负责实现自动的VO匹配处理操作，本身不需要通过实例化对象完成，所以构造方法私有化
+- ObjectUtils.java ------ 单级VO设置实现: 本类的主要功能是根据属性名称调用相应类中的getter、setter方法
+- StringUtils.java ------ 针对字符串进行处理操作
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
