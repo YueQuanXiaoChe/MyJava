@@ -88,6 +88,11 @@
 - ReflectConstructor.java ------ 通过反射调用构造方法
 - ReflectMethod.java ------ 通过反射调用普通方法
 - ReflectField.java ------ 通过反射调用类成员
+- TestEmpDemo.java ------ 单级VO设置实现
+- TestDeptDemo.java ------ 单级VO设置实现
+#### reflect/vo ------ 简单Java类
+- Dept.java
+- Emp.java
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
