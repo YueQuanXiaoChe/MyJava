@@ -6,7 +6,15 @@ package reflect.vo;
 public class Dept {
 	private String dname;
 	private String loc;
+	private Long count; // 总员工数
 	private Company company = new Company();
+	
+	public Long getCount() {
+		return count;
+	}
+	public void setCount(Long count) {
+		this.count = count;
+	}
 	
 	public Company getCompany() {
 		return company;
@@ -28,6 +36,8 @@ public class Dept {
 	}
 	@Override
 	public String toString() {
-		return "Dept [dname=" + dname + ", loc=" + loc + "] " + this.company;
+		return "Dept [dname=" + dname + ", loc=" + loc + ", count=" + count + "] " 
+	            + this.company;
 	}
+	
 }

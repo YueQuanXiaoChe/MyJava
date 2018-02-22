@@ -3,10 +3,27 @@
  */
 package reflect.vo;
 
+import java.util.Date;
+
 public class Company {
+	private Integer cid;
 	private String name;
 	private String address;
+	private Date create;
 	
+	public Integer getCid() {
+		return cid;
+	}
+	public void setCid(Integer cid) {
+		this.cid = cid;
+	}
+	
+	public Date getCreate() {
+		return create;
+	}
+	public void setCreate(Date create) {
+		this.create = create;
+	}
 	public String getName() {
 		return name;
 	}
@@ -21,6 +38,7 @@ public class Company {
 	}
 	@Override
 	public String toString() {
-		return "Company [name=" + name + ", address=" + address + "]";
+		return "Company [cid=" + cid + ", name=" + name + ", address=" + address + ", create=" + create + "]";
 	}
+	
 }
