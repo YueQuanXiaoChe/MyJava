@@ -55,6 +55,12 @@ public class ObjectUtils {
 			return null; // 该属性一定不存在
 		}
 		Method method = wrapObject.getClass().getMethod(methodName);
-		return method.invoke(wrapObject);
+		Object obj = method.invoke(wrapObject); // 调用getter返回的实例化对象
+		if(obj == null) { // 没有实例化关联类对象，必须自己手工实例化关联类对象
+			// 所有的程序类都可以通过反射来进行对象实例化处理，只需要取得对象的类型就可以实现该功能
+			obj = field.getType().newInstance(); // 实例化关联类对象
+			setObjectValue(wrapObject, attribute, obj);
+		}
+		return obj;
 	}
 }

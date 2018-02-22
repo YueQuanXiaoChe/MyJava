@@ -7,7 +7,7 @@ public class Dept {
 	private String dname;
 	private String loc;
 	private Long count; // 总员工数
-	private Company company = new Company();
+	private Company company;
 	
 	public Long getCount() {
 		return count;

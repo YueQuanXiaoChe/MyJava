@@ -7,7 +7,7 @@ import reflect.util.BeanOperation;
 import reflect.vo.Emp;
 
 public class EmpAction {
-	private Emp emp = new Emp();
+	private Emp emp;
 	
 	public void setValue(String val) { // 设置属性内容
 		// 之所以要传递一个this，主要是将EmpAction的类对象传递到方法里面
@@ -22,4 +22,9 @@ public class EmpAction {
 	public Emp getEmp() {
 		return emp;
 	}
+	
+	public void setEmp(Emp emp) {
+		this.emp = emp;
+	}
+
 }
