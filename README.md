@@ -90,6 +90,8 @@
 - ReflectField.java ------ 通过反射调用类成员
 - TestEmpDemo.java ------ 多级VO设置实现
 - ClassLoaderDemo.java ------ 自定义类加载器
+- ReflectInterfaceProxy.java ------ 动态代理设计模式（基于接口）
+- ReflectClassProxy.java ------ 用cglib库实现基于类的动态代理设计模式（了解即可，没什么卵用）
 ### reflect/vo ------ 简单Java类
 - Emp.java ------ 雇员VO类
 - Dept.java ------- 部门VO类
@@ -197,6 +199,8 @@ src/
 │   ├── ReflectField.java
 │   ├── TestEmpDemo.java
 │   ├── ClassLoaderDemo.java
+│   ├── ReflectInterfaceProxy.java
+│   ├── ReflectClassProxy.java
 │   ├── reflect/vo/
 │   │   ├── Emp.java
 │   │   ├── Dept.java
