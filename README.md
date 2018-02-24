@@ -92,6 +92,8 @@
 - ClassLoaderDemo.java ------ 自定义类加载器
 - ReflectInterfaceProxy.java ------ 动态代理设计模式（基于接口）
 - ReflectClassProxy.java ------ 用cglib库实现基于类的动态代理设计模式（了解即可，没什么卵用）
+- ReflectAnnotation.java ------ 自定义Annotation
+- AnnotationFactory.java ------ Annotation与工厂设计模式
 ### reflect/vo ------ 简单Java类
 - Emp.java ------ 雇员VO类
 - Dept.java ------- 部门VO类
@@ -201,6 +203,8 @@ src/
 │   ├── ClassLoaderDemo.java
 │   ├── ReflectInterfaceProxy.java
 │   ├── ReflectClassProxy.java
+│   ├── ReflectAnnotation.java
+│   ├── AnnotationFactory.java
 │   ├── reflect/vo/
 │   │   ├── Emp.java
 │   │   ├── Dept.java
