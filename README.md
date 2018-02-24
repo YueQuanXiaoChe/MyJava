@@ -17,7 +17,7 @@
 - ProxyPattern.java ------ 接口的设计模式 ------ 代理设计模式 
 - AnonymousInnerClass.java ------ 匿名内部类
 - HungerSingleton.java ------ 恶汉式 ------ 单例设计模式
-- LazySingleton.java ------ 懒汉式 ------ 单例设计模式
+- LazySingleton.java ------ 懒汉式 ------ 单例设计模式(这种写法存在线程不同步的问题，需要结合volatile关键字进行修改)
 - Multiple.java ------ 多例设计模式
 - InterfaceExtension.java ------ 接口定义加强 ------ 挽救设计
 - ObserverPattern.java ------ 观察者设计模式
@@ -94,6 +94,7 @@
 - ReflectClassProxy.java ------ 用cglib库实现基于类的动态代理设计模式（了解即可，没什么卵用）
 - ReflectAnnotation.java ------ 自定义Annotation
 - AnnotationFactory.java ------ Annotation与工厂设计模式
+- VolatileLazySingleton.java ------ volatile关键字与懒汉式单例设计模式
 ### reflect/vo ------ 简单Java类
 - Emp.java ------ 雇员VO类
 - Dept.java ------- 部门VO类
@@ -205,6 +206,7 @@ src/
 │   ├── ReflectClassProxy.java
 │   ├── ReflectAnnotation.java
 │   ├── AnnotationFactory.java
+│   ├── VolatileLazySingleton.java
 │   ├── reflect/vo/
 │   │   ├── Emp.java
 │   │   ├── Dept.java
