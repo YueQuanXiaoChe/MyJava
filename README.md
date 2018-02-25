@@ -106,6 +106,9 @@
 - ObjectUtils.java ------ 单级、多级VO设置实现: 本类的主要功能是根据属性名称调用相应类中的getter、setter方法
 - StringUtils.java ------ 针对字符串进行处理操作
 - ObjectValueUtils.java ------ 将字符串的内容根据属性对应的类型变为各种数据类型
+### net ------ 网络编程
+- net/hello/server/HelloServer.java ------ 基本网络编程模型：服务端
+- net/hello/client/HelloClient.java ------ 基本网络编程模型：客户端
 ### properties ------ 属性文件
 - Message.properties ------ 自定义的默认属性文件
 - Message_zh_CN.properties ------ 中文版属性文件
@@ -218,6 +221,12 @@ src/
 │       ├── ObjectUtils.java
 │       ├── StringUtils.java
 │       └── ObjectValueUtils.java
+├── net/
+│   └── net/hello/
+│       ├── net/hello/server/
+│       │   └── HelloServer.java 
+│       └── net/hello/client/
+│           └── HelloClient.java
 └── properties/
     ├── Message.properties
     ├── Message_zh_CN.properties
