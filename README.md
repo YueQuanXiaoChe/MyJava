@@ -232,7 +232,7 @@ src/
     ├── Message_zh_CN.properties
     └── Message_en_US.properties
 ```
-## 面试题:
+## 概念:
 - 请说明Java中的数据类型有哪些？
 ```
 - 基本数据类型:
